@@ -11,6 +11,10 @@ def load_library(file)
   #                       end
   #           end
   #binding.pry
+  hash =  {
+    get_meaning: [],
+    get_emoticon: []
+          }
 end
 
 def get_japanese_emoticon
