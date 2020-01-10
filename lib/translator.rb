@@ -19,7 +19,8 @@ hash
 end
 
 def get_japanese_emoticon(file , emote)
-  # code goes here
+
+  
 end
 
 def get_english_meaning
