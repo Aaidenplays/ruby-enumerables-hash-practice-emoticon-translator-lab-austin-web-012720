@@ -15,7 +15,7 @@ def load_library(file)
                         end
             end
   
-
+hash
 end
 
 def get_japanese_emoticon
