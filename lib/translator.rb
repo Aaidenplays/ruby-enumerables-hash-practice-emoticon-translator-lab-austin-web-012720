@@ -21,6 +21,8 @@ end
 def get_japanese_emoticon(file , emote)
   emotes = load_library(file)
   if !emotes[:get_emoticon].detect{|n| n = emote}
+    return "Sorry, that emoticon was not found"
+  end
   emotes[:get_emoticon][emote]
 end
 
