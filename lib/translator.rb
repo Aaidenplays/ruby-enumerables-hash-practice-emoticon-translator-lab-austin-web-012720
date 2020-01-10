@@ -21,7 +21,6 @@ end
 def get_japanese_emoticon(file , emote)
   emotes = load_library(file)
   if emotes[:get_emoticon].has_key(emote)
-    binding.pry
     return "Sorry, that emoticon was not found"
   else
   return emotes[:get_emoticon][emote]
