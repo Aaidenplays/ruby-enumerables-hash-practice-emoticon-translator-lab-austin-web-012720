@@ -21,7 +21,7 @@ end
 def get_japanese_emoticon(file , emote)
   emotes = load_library(file)
   result = nil
-  binding.pry
+  #binding.pry
   emotes[:get_emoticon][emote]
 
 end
