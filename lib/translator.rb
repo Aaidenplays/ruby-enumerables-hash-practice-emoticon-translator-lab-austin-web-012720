@@ -10,7 +10,7 @@ def load_library(file)
           }
   file.each do |key, array|
               array.each do |emote| 
-                          hash[:get_meaning][emote][1] = key
+                          hash[:get_meaning][emote] = key
                           binding.pry
                         end
             end
