@@ -29,7 +29,7 @@ end
 
 def get_english_meaning(file,emote)
   emotes = load_library(file)
-  binding.pry
+  #binding.pry
   if !emotes[:get_meaning].has_key?(emote)
     return "Sorry, that emoticon was not found"
   else
