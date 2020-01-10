@@ -11,10 +11,10 @@ def load_library(file)
   file.each do |key, array|
               array.each do |emote| 
                           hash[:get_meaning][array[1]]= key
-                          binding.pry
                         end
             end
-            
+                                binding.pry
+      
 hash
 end
 
