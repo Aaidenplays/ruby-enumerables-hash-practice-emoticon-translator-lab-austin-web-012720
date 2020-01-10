@@ -20,10 +20,8 @@ end
 
 def get_japanese_emoticon(file , emote)
   emotes = load_library(file)
-  result = nil
-  #binding.pry
+  if !emotes[:get_emoticon].detect{|n| n = emote}
   emotes[:get_emoticon][emote]
-
 end
 
 def get_english_meaning
