@@ -12,8 +12,8 @@ def load_library(file)
   #           end
   #binding.pry
   hash =  {
-    get_meaning: [],
-    get_emoticon: []
+    get_meaning: {},
+    get_emoticon: {}
           }
 end
 
