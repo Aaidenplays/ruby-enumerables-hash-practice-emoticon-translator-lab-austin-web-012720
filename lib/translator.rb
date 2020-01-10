@@ -8,7 +8,7 @@ def load_library(file)
   file.each do |key, array|
               array.each do |array,value| 
                           file[:get_meaning] = key
-                        end
+                         end
             end
   #binding.pry
 end
