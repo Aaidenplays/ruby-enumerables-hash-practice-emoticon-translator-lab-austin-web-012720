@@ -19,9 +19,9 @@ hash
 end
 
 def get_japanese_emoticon(file , emote)
-  emotes = load_library(file)
-  
-  #binding.pry
+  load_library(file)
+  #file
+  binding.pry
 end
 
 def get_english_meaning
