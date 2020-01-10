@@ -4,7 +4,7 @@ require 'pry'
 
 def load_library(file)
   file = YAML.load_file(file)
-  file[:get_meaning]
+  file[:get_meaning] = {}
   # file.each do |key, array|
   #             array.each do |array,value| 
   #                         hash[:get_meaning] = key
