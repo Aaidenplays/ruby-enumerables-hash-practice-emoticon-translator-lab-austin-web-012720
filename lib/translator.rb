@@ -3,7 +3,7 @@ require 'yaml'
 require 'pry'
 
 def load_library(file)
-  # file = YAML.load_file(file)
+ file = YAML.load_file(file)
   # hash =  {
   # get_meaning: {},
   # get_emoticon: {}
