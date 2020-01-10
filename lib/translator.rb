@@ -11,6 +11,7 @@ def load_library(file)
   file.each do |key, array|
               array.each do |emote| 
                           hash[:get_meaning][array[1]]= key
+                          hash[:get_emoticon][array[0]]= key
                         end
             end
    #binding.pry
