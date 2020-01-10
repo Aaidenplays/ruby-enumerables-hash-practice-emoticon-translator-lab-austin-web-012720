@@ -23,7 +23,5 @@ def get_japanese_emoticon
 end
 
 def get_english_meaning
-  # hash = load_library(file)
-  # hash.
-  # binding.pry
+ binding.pry
 end
