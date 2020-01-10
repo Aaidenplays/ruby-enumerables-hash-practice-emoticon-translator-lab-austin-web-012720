@@ -9,7 +9,7 @@ def load_library(file)
   get_emoticon: {}
           }
   file.each do |key, array|
-              array.each do |array,value| 
+              array.each do |array| 
                           hash[:get_meaning][]
                           binding.pry
                         end
