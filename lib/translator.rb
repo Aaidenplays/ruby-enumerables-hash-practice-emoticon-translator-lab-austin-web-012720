@@ -18,5 +18,6 @@ end
 
 def get_english_meaning(file)
   hash = load_library(file)
+  
   binding.pry
 end
