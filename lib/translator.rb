@@ -11,7 +11,7 @@ def load_library(file)
   #                         hash[:get_meaning] = key
   #                       end
   #           end
-  #binding.pry
+  binding.pry
 end
 
 def get_japanese_emoticon
