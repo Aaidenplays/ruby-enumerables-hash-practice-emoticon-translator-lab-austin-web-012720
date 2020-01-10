@@ -34,4 +34,5 @@ def get_english_meaning(file,emote)
   else
   return emotes[:get_emoticon][emote]
   end
+  binding.pry
 end
