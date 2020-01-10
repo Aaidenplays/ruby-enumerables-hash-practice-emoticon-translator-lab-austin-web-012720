@@ -13,8 +13,7 @@ def load_library(file)
                           hash[:get_meaning][array[1]]= key
                         end
             end
-                                binding.pry
-      
+   #binding.pry
 hash
 end
 
