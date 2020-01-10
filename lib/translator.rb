@@ -19,8 +19,12 @@ hash
 end
 
 def get_japanese_emoticon(file , emote)
+  
   emotes = load_library(file)
-  result = emotes.detect {|n| n = emote}
+  result = nil
+  emotes.each do |keys, |
+                       
+              end
   
   #binding.pry
   result
