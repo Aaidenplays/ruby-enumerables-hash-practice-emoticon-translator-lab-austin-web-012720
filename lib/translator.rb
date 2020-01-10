@@ -22,7 +22,7 @@ def get_japanese_emoticon(file , emote)
   emotes = load_library(file)
   emotes.detect{|n| n = emote}
   
-  binding.pry
+  #binding.pry
 end
 
 def get_english_meaning
