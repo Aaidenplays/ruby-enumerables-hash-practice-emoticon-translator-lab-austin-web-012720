@@ -20,7 +20,7 @@ end
 
 def get_japanese_emoticon(file , emote)
   emotes = load_library(file)
-  emotes.detect
+  emotes.detect{|n| 
   
   binding.pry
 end
