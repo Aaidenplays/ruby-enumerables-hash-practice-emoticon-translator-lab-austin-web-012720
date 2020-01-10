@@ -10,7 +10,7 @@ def load_library(file)
           }
   file.each do |key, array|
               array.each do |array| 
-                          hash[:get_meaning][]
+                          hash[:get_meaning][array]
                           binding.pry
                         end
             end
